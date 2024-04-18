@@ -1,3 +1,20 @@
+# SetUp Commands
+Configuration user information used accross all local repositories
+
+git config --global user.name "github username"
+
+git config --global user.email "valid-emailid"
+
+# SETUP & INIT
+Configuration user information, initialization and cloning repositories.
+
+Inialize an existing directory as GIT Repository 
+git init 
+
+# Retrieve an entire repository from a hosted location via URL
+git clone [url]
+
+
 import random
 import string
 def generate_password():
